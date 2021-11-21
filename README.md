@@ -4,14 +4,20 @@
 <img src="https://images.squarespace-cdn.com/content/v1/57f6d51c9f74566f55ecf271/1572292713808-OGX91SRKS29HO1S1NM3M/ke17ZwdGBToddI8pDm48kILpIeU4tSPoyuPhoTZrjZYUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYwL8IeDg6_3B-BRuF4nNrNcQkVuAT7tdErd0wQFEGFSnNzerEU_4M7wwrSbGAQBPoaEXIMwgzaMZDtzFVLMb0IRXJtgAAHcBYpsBwzoISzHpg/DLC_logo_blk_wide-01.png?format=1000w" width="95%">
 </p>
 
-In **2020** we will host 2 workshops and 2 hackathons, one each at Harvard  and one each at EPFL. See [here for details](http://www.mousemotorlab.org/workshops). We will also be present at various other summer schools (TBA).
 
-**NEW: due to COVID-19, we are working on a virtual [self-paced spring/summer course](summer_course2020.md)**
+**Due to COVID-19, we needed to cancel our fall 2020 in-person workshops: we have now released our free [self-paced online course!](https://github.com/DeepLabCut/DeepLabCut-Workshop-Materials/blob/master/DLCcourse.md)** 
+
+[CLICK HERE to lauch the interactive graphic to get started!](https://view.genial.ly/5fb40a49f8a0ef13943d4e5e/horizontal-infographic-review-learning-to-use-deeplabcut) (mini preview below)
+
+<p align="left">
+<img src="https://images.squarespace-cdn.com/content/v1/57f6d51c9f74566f55ecf271/1605642639913-OIUBVR8R0JLYZQPRIYIR/ke17ZwdGBToddI8pDm48kMMAxEenKbh651VJujierMxZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpw-CO5bsXt3Lwn3O5kv-PfTgGtLU9oye8D4J7Fixq38Gl-o9tfrEtbnqpPzC5bXTas/ezgif.com-gif-maker.gif?format=750w" width="95%">
+</p>
+
 
 
 # DeepLabCut 2020 Workshop Materials:
 
-Notice that details on installation, usage and examples can be found on the standard repository: https://github.com/AlexEMG/DeepLabCut
+Notice that details on installation, usage and examples can be found on the standard repository: https://github.com/DeepLabCut/DeepLabCut
 
 Here, we share selected materials from our workshops for using DeepLabCut:
 
@@ -39,6 +45,9 @@ You can also use Google Colaboratory to run the demo data (without any installat
 Notice that more demos can be found in the examples folder of the [DeepLabCut github repo](https://github.com/AlexEMG/DeepLabCut/tree/master/examples).
 
 # Past and present workshop schedule
+
+- June 2021: Virtual visit to Marine Biological Laboratory, Woods Hole, MA as part of [The Neural Systems and Behavior Course in Woods Hole](https://www.mbl.edu/nsb/) -- see: https://twitter.com/NSB_MBL/status/1401548173798264837
+- December, 2020: [DLC-live](https://github.com/DeepLabCut/DeepLabCut-live) was published (one of the topics the hackathon contributed to!)
 - March 5-6, 2020: First DLC Hackathon: focus on hardware integration. Many exciting developments will appear -- Stay tuned!
 - Jan 16-17, 2020: Second Annual Workshop at the Rowland Institute at Harvard!
 - July 2019: [Neural Data Science Course at Cold Spring Harbor Laboratory](https://meetings.cshl.edu/courses.aspx?course=c-neudata&year=19)

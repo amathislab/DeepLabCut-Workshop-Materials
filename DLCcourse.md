@@ -1,19 +1,19 @@
-## Got Behavior? Get Poses ...  <img src="https://images.squarespace-cdn.com/content/v1/57f6d51c9f74566f55ecf271/1572296495650-Y4ZTJ2XP2Z9XF1AD74VW/ke17ZwdGBToddI8pDm48kMulEJPOrz9Y8HeI7oJuXxR7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UZiU3J6AN9rgO1lHw9nGbkYQrCLTag1XBHRgOrY8YAdXW07ycm2Trb21kYhaLJjddA/DLC_logo_blk-01.png?format=1000w" width="350" title="DLC-live" alt="DLC LIVE!" align="right" vspace = "50">
+## Got Behavior? Get Poses ...  <img src="https://images.squarespace-cdn.com/content/v1/57f6d51c9f74566f55ecf271/1572296495650-Y4ZTJ2XP2Z9XF1AD74VW/ke17ZwdGBToddI8pDm48kMulEJPOrz9Y8HeI7oJuXxR7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UZiU3J6AN9rgO1lHw9nGbkYQrCLTag1XBHRgOrY8YAdXW07ycm2Trb21kYhaLJjddA/DLC_logo_blk-01.png?format=1000w" width="150" title="DLC-live" alt="DLC LIVE!" align="right" vspace = "50">
 
-This document is an outline of resources for an informal coursefor those wanting to learn to use DeepLabCut (while responsibly isolating due to COVID-19). We expect it to take *roughly* 1-2 weeks to get through.
+This document is an outline of resources for a course for those wanting to learn to use Python and DeepLabCut (while responsibly isolating due to COVID-19!). We expect it to take *roughly* 1-2 weeks to get through if you do it rigorously. To get the basics, it should take 1-2 days.
 
+[CLICK HERE to lauch the interactive graphic to get started!](https://view.genial.ly/5fb40a49f8a0ef13943d4e5e/horizontal-infographic-review-learning-to-use-deeplabcut) (mini preview below) Or, jump in below!
 
-:purple_heart: We would also be very excited if you contributed to the newly launched DeepLabCut Model Zoo while you learn! Namely, you can learn to use DeepLabCut on data that can be used to build better community tools!! Please contact us in this form if you are interested: https://forms.gle/KRtdKKYB57ZkaBwH7 :purple_heart:
-
-www.deeplabcut.org 
+<p align="center">
+<img src="https://images.squarespace-cdn.com/content/v1/57f6d51c9f74566f55ecf271/1605642639913-OIUBVR8R0JLYZQPRIYIR/ke17ZwdGBToddI8pDm48kMMAxEenKbh651VJujierMxZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpw-CO5bsXt3Lwn3O5kv-PfTgGtLU9oye8D4J7Fixq38Gl-o9tfrEtbnqpPzC5bXTas/ezgif.com-gif-maker.gif?format=750w" width="95%">
+</p>
 
 You can also chat with one another on Gitter or Twitter:
 [![Gitter](https://badges.gitter.im/DeepLabCut/community.svg)](https://gitter.im/DeepLabCut/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 [![Twitter Follow](https://img.shields.io/twitter/follow/DeepLabCut.svg?label=DeepLabCut&style=social)](https://twitter.com/DeepLabCut)
 
 
-
-## Quick Start:
+## Installation:
 
 You need: Anaconda for python3 and DeepLabCut installed (CPU version)
 - you should have a [CPU version of DeepLabCut installed on your laptop](https://github.com/AlexEMG/DeepLabCut/blob/master/conda-environments/README.md). We will assume you don't all have GPUs at home, so we will 
@@ -47,7 +47,9 @@ utilize cloud-computing resources for those steps.
 
 - **REVIEW PAPER:** The state of animal pose estimation w/ deep learning i.e. "Deep learning tools for the measurement of animal behavior in neuroscience" [arXiv](https://arxiv.org/abs/1909.13868) & [published version](https://www.sciencedirect.com/science/article/pii/S0959438819301151)
 
-
+- **NEW! REVIEW PAPER:** A Primer on Motion Capture with Deep Learning: Principles, Pitfalls and Perspectives
+ https://arxiv.org/abs/2009.00564
+ 
 - **WATCH:** There are a lot of docs... where to begin: [Video Tutorial!](https://www.youtube.com/watch?v=A9qZidI7tL8) 
 
 ### **Module 1: getting started on data**
@@ -81,8 +83,13 @@ You can use our demo videos, grab some from the internet, or use whatever older 
    - **READ ME PLEASE:** [What are convolutional neural networks?](https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53) 
    
    - **READ ME PLEASE:** Here is a new paper from us describing challenges in robust pose estimation, why PRE-TRAINING really matters - which was our major scientific contribution to low-data input pose-estimation - and it describes new networks that are availble to you. [Pretraining boosts out-of-domain robustness for pose estimation](https://paperswithcode.com/paper/pretraining-boosts-out-of-domain-robustness)
-   
+      
        - **MORE DETAILS:** ImageNet: check out the original paper and dataset: http://www.image-net.org/ (link to [ppt from Dr. Fei-Fei Li](http://www.image-net.org/papers/ImageNet_2010.ppt))
+       
+  - **NEW! REVIEW PAPER:** A Primer on Motion Capture with Deep Learning: Principles, Pitfalls and Perspectives
+ https://arxiv.org/abs/2009.00564
+ 
+ <img src="https://images.squarespace-cdn.com/content/v1/57f6d51c9f74566f55ecf271/1603101997909-7IEYAYZYE9C8AX6SK7GR/ke17ZwdGBToddI8pDm48kND1NDuHF9nqrgeclEdLoeR7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0qN_-Z3B7EvygvPOPmeOryWYMQ3pkjXJ5SX4aMqPMuK4PimCRlyu3R6yKl-KltrlZA/networks.jpg?format=2500w" width="350" title="DLC" alt="review!" align="right" vspace = "50">
    
   Before you create a training/test set, please read/watch:
    - **More information:** [Which types neural networks are available, and what should I use?](https://github.com/AlexEMG/DeepLabCut/wiki/What-neural-network-should-I-use%3F)
